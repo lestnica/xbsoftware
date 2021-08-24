@@ -1,0 +1,30 @@
+.test-parent {
+  width:100%;
+  height: 1000px;
+  color: black;
+  display:flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.test-origin {
+  flex-basis: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  flex-grow: 1;
+
+}
+
+.test-draggable {
+  width: 40px;
+  height: 40px;
+  background-color: #ffb100;
+
+}
+
+.test-right-zone {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
